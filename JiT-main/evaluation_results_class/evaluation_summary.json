@@ -1,0 +1,140 @@
+{
+  "config": {
+    "model": "JiT-CWD-Class-Base",
+    "cfg_scale": 2.0,
+    "num_sampling_steps": 50,
+    "checkpoint": "./output_cwd_class/checkpoint-last.pth"
+  },
+  "overall": {
+    "total_samples": 480,
+    "avg_psnr_noisy": 17.994181517659435,
+    "avg_psnr_denoised": 11.40465072157065,
+    "avg_ssim_noisy": 0.046192864983466884,
+    "avg_ssim_denoised": 0.008347378378369071,
+    "avg_psnr_improvement": -6.589530796088781,
+    "avg_ssim_improvement": -0.03784548660509782
+  },
+  "by_category": {
+    "BPSK": {
+      "psnr_noisy": 18.26162982010074,
+      "psnr_denoised": 11.490371897821836,
+      "ssim_denoised": 0.005102623453465352,
+      "psnr_improvement": -6.771257922278904,
+      "num_samples": 30
+    },
+    "CP": {
+      "psnr_noisy": 17.756424227004445,
+      "psnr_denoised": 11.301096258266542,
+      "ssim_denoised": 0.007501251901084249,
+      "psnr_improvement": -6.455327968737903,
+      "num_samples": 30
+    },
+    "Costas": {
+      "psnr_noisy": 18.2097240845889,
+      "psnr_denoised": 11.49769938901647,
+      "ssim_denoised": 0.008609376066957285,
+      "psnr_improvement": -6.712024695572429,
+      "num_samples": 30
+    },
+    "FSK4_Baker5": {
+      "psnr_noisy": 18.63129976618246,
+      "psnr_denoised": 11.631952140300182,
+      "ssim_denoised": 0.0072870760013423515,
+      "psnr_improvement": -6.9993476258822795,
+      "num_samples": 30
+    },
+    "FSK4_LFM": {
+      "psnr_noisy": 17.05245305358716,
+      "psnr_denoised": 11.019016545978117,
+      "ssim_denoised": 0.018591722493517534,
+      "psnr_improvement": -6.033436507609045,
+      "num_samples": 30
+    },
+    "Frank": {
+      "psnr_noisy": 18.55539175885616,
+      "psnr_denoised": 11.571821571043538,
+      "ssim_denoised": 0.007005453119404675,
+      "psnr_improvement": -6.983570187812623,
+      "num_samples": 30
+    },
+    "LFM": {
+      "psnr_noisy": 17.46013438437751,
+      "psnr_denoised": 11.18720300364249,
+      "ssim_denoised": 0.017456353151526414,
+      "psnr_improvement": -6.272931380735022,
+      "num_samples": 30
+    },
+    "NLFM": {
+      "psnr_noisy": 18.068942280384807,
+      "psnr_denoised": 11.536142289724499,
+      "ssim_denoised": 0.008406839495785775,
+      "psnr_improvement": -6.532799990660308,
+      "num_samples": 30
+    },
+    "P1": {
+      "psnr_noisy": 17.822767483605286,
+      "psnr_denoised": 11.326865097041248,
+      "ssim_denoised": 0.003787379993113844,
+      "psnr_improvement": -6.495902386564039,
+      "num_samples": 30
+    },
+    "P2": {
+      "psnr_noisy": 17.742174713360882,
+      "psnr_denoised": 11.296673741915862,
+      "ssim_denoised": 0.003363974152585177,
+      "psnr_improvement": -6.4455009714450195,
+      "num_samples": 30
+    },
+    "P3": {
+      "psnr_noisy": 17.921539031073962,
+      "psnr_denoised": 11.487357662217185,
+      "ssim_denoised": 0.004305902352567702,
+      "psnr_improvement": -6.434181368856777,
+      "num_samples": 30
+    },
+    "P4": {
+      "psnr_noisy": 17.48823764654485,
+      "psnr_denoised": 11.299211020487936,
+      "ssim_denoised": 0.012528414150181537,
+      "psnr_improvement": -6.189026626056913,
+      "num_samples": 30
+    },
+    "T1": {
+      "psnr_noisy": 18.369438122367274,
+      "psnr_denoised": 11.620567924059326,
+      "ssim_denoised": 0.004187964110770544,
+      "psnr_improvement": -6.748870198307948,
+      "num_samples": 30
+    },
+    "T2": {
+      "psnr_noisy": 18.210324842076634,
+      "psnr_denoised": 11.546035231567567,
+      "ssim_denoised": 0.0042448817393431915,
+      "psnr_improvement": -6.664289610509067,
+      "num_samples": 30
+    },
+    "T3": {
+      "psnr_noisy": 18.257736127896717,
+      "psnr_denoised": 11.39528700214587,
+      "ssim_denoised": 0.006888225479575281,
+      "psnr_improvement": -6.862449125750846,
+      "num_samples": 30
+    },
+    "T4": {
+      "psnr_noisy": 18.098686940543093,
+      "psnr_denoised": 11.267110769901725,
+      "ssim_denoised": 0.014290616392684216,
+      "psnr_improvement": -6.831576170641368,
+      "num_samples": 30
+    }
+  },
+  "by_snr": {
+    "-10": {
+      "psnr_noisy": 17.994181517659435,
+      "psnr_denoised": 11.40465072157065,
+      "ssim_denoised": 0.008347378378369071,
+      "psnr_improvement": -6.589530796088784,
+      "num_samples": 480
+    }
+  }
+}
